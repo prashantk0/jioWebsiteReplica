@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon1.ico">
+    <title>Jio - Best Prepaid & Postpaid Plans, JioFiber, Apps & More</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3736039a03.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div id='navigationBar' class="sticky">
+    <div class="menuContainer">
+        <div class="menuBarLeft">
+            <img class="jioLogo" src="images/jioLogo.png" alt="jioLogo">
+            <a href="#mobile">Mobile</a>
+            <a href="#jiofiber">JioFiber</a>
+            <a href="#business">Business</a>
+            <a href="#shop">Shop</a>
+            <a href="#apps">Apps</a> 
+        </div>
+        <div class="menuBarRight">
+            <form>
+                <input type="text" name="search" placeholder="Search">
+            </form>
+            <a href="#question"><img class="questCartIcon" src="images/question_icon.png" alt="question_icon"></a>
+            <a href="#cart"><img class="questCartIcon" src="images/cart.png" alt="cart_icon"></a>
+            <a href="#user"><img id="userIcon" src="images/user_icons.png" alt="user_icon"></a>
+        </div>
+    </div>  
+    
+    <div class="navContainer">
+        <div class="navMenu">
+            <a href="#discover" class="activeBottomBorder">Discover</a>
+            <a href="#prepaid">Prepaid</a>
+            <a href="#postpaid">Postpaid</a>
+            <a href="#getJioSim">Get Jio SIM</a>
+            <a href="#recharge">Recharge</a>
+            <a href="#payBill">Pay Bill</a>
+        </div>      
+    </div>
+</div>
+
+
+<!-- Slideshow container -->
+<div class="slideshowContainer">
+
+    <div class="mySlides fade">
+        <img src="images/republic.png" style="width:100%" alt="republic">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/jiophoneNext.png" style="width:100%" alt="jiophone">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/cashback.png" style="width:100%" alt="cashback">
+    </div>
+</div>
+
+<br>
+<!-- The dots/circles -->
+<div style="text-align: center;">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>   
+</div>
+
+<div class="serviceContainer">
+    <button class='serviceBtn'>Recharge</button>
+    <button class='serviceBtn'>Pay Bill</button>
+    <button class='serviceBtn'>Get Jio SIM</button>
+    <button class='serviceBtn'>Port to Jio</button>
+</div>
+
+<!-- mobile data plans container -->
+<div class="plansContainer">
+    <h3 id='plansContainerHeading'>Unlimited mobile data plans</h3>
+    <div class="planCardContainer">
+        <div class="planCard">
+            <div class="detailsContainer">
+                <div class="planName">
+                    <h5>20% JIOMART MAHA CASHBACK</h5>
+                </div>
+                <h1 class="rupee"><span>&#8377</span>299</h1>
+                <h3 class="textFormat">Unlimited Voice and SMS</h3>
+                <div class="apps">
+                    <img src="images/jiotv-n.svg" alt="jioTvApp">
+                    <img src="images/jiocinema-n.svg" alt="jioCinemaApp">
+                    <img src="images/jiosecurity-n.svg" alt="jioSecureApp">
+                    <span>+1 more</span>
+                </div>
+                <div class="lineBorder"> 
+                </div>
+                <div class="validityBenefits">
+                    <div class="validity">
+                        <h3 id='val'>Validity</h3>
+                        <h3 id='day'>28 days</h3>
+                    </div>
+                    <div class="benefits">
+                        <h3 id='ben'>Benefits</h3>
+                        <h3 id='perDay'>2 GB/day</h3>
+                    </div>
+                </div>
+                <div class="planBtnContainer">
+                    <button>Recharge</button>
+                    <a href="#viewDetails">View Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="planCard">
+            <div class="detailsContainer">
+                <div class="planName">
+                    <h5>PREPAID PLAN</h5>
+                </div>
+                <h1 class="rupee"><span>&#8377</span>499</h1>
+                <h3 class="textFormat">Unlimited Voice and SMS with 1-year Disney+ Hotstar mobile subscription worth ₹499</h3>
+                <div class="apps">
+                    <img src="images/ic_dph-n.svg" alt="jioTvApp">
+                    <img src="images/jiocinema-n.svg" alt="jioCinemaApp">
+                    <img src="images/jiosecurity-n.svg" alt="jioSecureApp">
+                    <span>+2 more</span>
+                </div>
+                <div class="lineBorder"> 
+                </div>
+                <div class="validityBenefits">
+                    <div class="validity">
+                        <h3 id='val'>Validity</h3>
+                        <h3 id='day'>28 days</h3>
+                    </div>
+                    <div class="benefits">
+                        <h3 id='ben'>Benefits</h3>
+                        <h3 id='perDay'>2 GB/day</h3>
+                    </div>
+                </div>
+                <div class="planBtnContainer">
+                    <button>Recharge</button>
+                    <a href="#viewDetails">View Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="planCard">
+            <div class="detailsContainer">
+                <div class="planName">
+                    <h5>20% JIOMART MAHA CASHBACK</h5>
+                </div>
+                <h1 class="rupee"><span>&#8377</span>666</h1>
+                <h3 class="textFormat">Unlimited Voice and SMS</h3>
+                <div class="apps">
+                    <img src="images/jiotv-n.svg" alt="jioTvApp">
+                    <img src="images/jiocinema-n.svg" alt="jioCinemaApp">
+                    <img src="images/jiosecurity-n.svg" alt="jioSecureApp">
+                    <span>+1 more</span>
+                </div>
+                <div class="lineBorder"> 
+                </div>
+                <div class="validityBenefits">
+                    <div class="validity">
+                        <h3 id='val'>Validity</h3>
+                        <h3 id='day'>84 days</h3>
+                    </div>
+                    <div class="benefits">
+                        <h3 id='ben'>Benefits</h3>
+                        <h3 id='perDay'>1.5 GB/day</h3>
+                    </div>
+                </div>
+                <div class="planBtnContainer">
+                    <button>Recharge</button>
+                    <a href="#viewDetails">View Details</a>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div class="viewAllPlan">
+        <button class="serviceBtn">View all plans</button>
+    </div> 
+</div>
+
+<!-- Products for You -->
+<div class="productContainer">
+    <h3 id='productContainerHeading'>Products for you</h3>
+    <div class="productCardContainer">
+        <div class="productCard">
+        <img src="images/jiophone-next-n.png" alt="jioPhoneBuy">  
+        <div class="imageContent">
+            <h6 class="jioPhoneLabel">JioPhone Next</h6>
+            <h3 id="emi">At ₹1,999 with easy EMI</h3>
+        </div>
+        </div>
+        <div class="productCard">
+            <img src="images/watch-series-7-homepage (1).png" alt="appleWatch">
+            <div class="imageContent">
+                <h6 class="jioPhoneLabel">Apple Watch Series 7</h6>
+                <h3 id="emi">From ₹41,900</h3>
+            </div>
+            
+        </div>
+        <div class="productCard">
+            <img src="images/MicrosoftTeams-image (3).png" alt="iphone"> 
+            <div class="imageContent">
+                <h6 class="jioPhoneLabel">Apple iPhone 13</h6>
+                <h3 id="emi">From ₹79,900</h3> 
+            </div>
+        </div>  
+    </div>
+    <div>
+        <button class="serviceBtn">View more</button>
+    </div> 
+</div>
+
+<!-- info about jioApps -->
+<div class="productContainer JioAppsContainer">
+    <h3 id='productContainerHeading'>JioApps</h3>
+    <div class="productCardContainer">
+        <div class="productCard jioAppsCardHeight">
+        <img src="images/girlwatchingphone.png" alt="jioPhoneBuy">  
+        <div class="imageContent">
+            <div class="MyJioLogo">
+              <img src="images/myjio-n.svg" alt="myJioLogo"> 
+              <h1 class="jioPhoneLabel myJioLabel">MyJio</h1> 
+            </div>
+            <h3 id="myJioLabelDetails">For everything Jio.</h3>
+            <div class="appBtn">
+                    <button>Get now</button>
+                    <a href="#learnMore">Learn more</a>
+            </div>
+
+        </div>
+        </div>
+        <div class="productCard jioAppsCardHeight">
+            <img src="images/popcorn.png" alt="appleWatch">
+            <div class="imageContent">
+                <div class="MyJioLogo">
+                    <img src="images/jiocinema-n.svg" alt="myJioLogo"> 
+                    <h1 class="jioPhoneLabel myJioLabel">JioCinema</h1> 
+                  </div>
+                  <h3 id="myJioLabelDetails">Premium content from the world over.</h3>
+                  <div class="appBtn">
+                          <button>Get now</button>
+                          <a href="#learnMore">Learn more</a>
+                  </div>
+            </div>
+            
+        </div>
+        <div class="productCard jioAppsCardHeight">
+            <img src="images/jiosaavn-app-min.png" alt="iphone"> 
+            <div class="imageContent">
+                <div class="MyJioLogo">
+                  <img src="images/jiosaavn-n.svg" alt="myJioLogo"> 
+                  <h1 class="jioPhoneLabel myJioLabel">JioSaavn</h1> 
+                </div>
+                <h3 id="myJioLabelDetails">All your music. Anytime. Anywhere.</h3>
+                <div class="appBtn">
+                        <button>Get now</button>
+                        <a href="#learnMore">Learn more</a>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div>
+        <button class="serviceBtn">View all apps</button>
+    </div> 
+</div>
+
+<!-- More from Jio -->
+<div class="productContainer JioAppsContainer moreFromJioConatiner">
+    <h3 id='productContainerHeading'>More from Jio</h3>
+    <div class="productCardContainer">
+        <div class="productCard moreAppPartnerImage">
+            <img src="images/partnersImage.png" alt="partners">
+        </div>
+        <div class="productCard moreAppStyleImage">
+            <img src="images/style.png" alt="styleImage">
+        </div>
+        
+    </div>
+</div>
+
+<!-- contact container -->
+<div class="contactContainer">
+    <div class="contactDetailsContainer">
+        <div class="lists">
+            <h1>Our offerings</h1>
+            <a href="#prepaidService">Prepaid</a>
+            <a href="#postpaidService">Postpaid</a>
+            <a href="#roamingService">International roaming</a>
+            <a href="#appsService">Apps</a>
+            <a href="#esimService">eSIM</a>
+            <a href="#wificallingService">WiFi calling</a>
+            <a href="#jioTunesService">JioTunes</a>
+            <a href="#DevicesService">Devices</a>
+            <a href="#lyfService">LYF smartphone+</a>
+        </div>
+        <div class="lists">
+            <h1>Support</h1>
+            <a href="#trackOrderService">Track Order</a>
+            <a href="#myAccountService">My account</a>
+            <a href="#faqService">FAQ</a>
+            <a href="#locateUsService">Locate us</a>
+            <a href="#refundService">Claim your refund</a>
+            <a href="#feedbackService">Feedback</a>
+            <a href="#contactUsService">Contact us</a>
+        </div>
+        <div class="lists">
+            <h1>Our Company</h1>
+            <a href="#industriesService">Reliance Industries</a>
+            <a href="#foundationService">Reliance Foundation</a>
+            <a href="#jioLifeService">JioLife</a>
+            <a href="#CareersService">Careers</a>
+            <a href="#investorsService">Investor relations</a>
+        </div>
+        <div class="lists">
+            <h1>Useful Links</h1>
+            <a href="#getSimService">Get Jio SIM</a>
+            <a href="#jioPayService">JioAutoPay</a>
+            <a href="#brandOffersService">Brand offers</a>
+            <a href="#partnersJioService">Partner with Jio</a>
+        </div>
+        <div class="connectContainer">
+            <h1>Connect with us</h1>
+            <div class="socialMedia">
+                <div class="blueCircle">
+                   <img src="images/twitter logo.png" " alt=""> 
+                </div>
+                <div class="blueCircle">
+                    <img src="images/logo-instagram-png-41284.png" alt="">
+                </div>                    
+                <div class="blueCircle">
+                   <img src="images/facebookLogo.png" alt=""> 
+                </div>
+                <div class="blueCircle">
+                    <img src="images/youtubeLogo.png" alt="">
+                </div>
+                <div class="blueCircle">
+                    <img src="images/linkinlogo.png" alt="">
+                </div>
+            </div>
+            <h1>Download MyJio</h1>
+            <div class="appStore">
+                <img src="images/G-Play.svg" alt="playstoreImg">
+                <img src="images/AppStore.svg" alt="appstoreImg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- footer container -->
+
+<section class="footerContainer">
+    <div class="footerContent">
+        <div class="footerLeft">
+            <img class="jioLogo" src="images/jioLogo.png" alt="jioLogo">
+            <h1>Copyright © 2022 Reliance Jio Infocomm Ltd. All rights reserved.</h1>
+        </div>
+        <div class="footerRight">
+            <a href="#pressRelease">Press release</a>
+            <div class="verticalLine"></div>
+            <a href="#regulatory">Regulatory</a>
+            <div class="verticalLine"></div>
+            <a href="#policies">Policies</a>
+            <div class="verticalLine"></div>
+            <a href="#TermsConditions">Terms & conditions</a>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="jioProject.js "></script>
+</body>
+</html>
