@@ -1,0 +1,38 @@
+/* media queries */
+
+@media only screen and (max-width:991px){
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    .hide{
+        display: none; 
+    }
+
+    .menuBar{
+        margin-bottom: 1.5em;
+        width: 100%; 
+    }
+
+    .menuBarRight {
+        width: 42%;
+    }
+
+    .menuBarLeft {
+        width: 3em;
+    }
+
+    .menuBarRight form {
+        width: 67.5%;
+    }
+
+    #userIcon{
+        margin-left: 1px;
+    }
+
+
+
+
+
+}
