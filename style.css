@@ -13,7 +13,7 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 10;
     transition: top 0.3s;
 }
 
@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .menuContainer {
@@ -43,6 +44,7 @@ body {
     justify-content: left;
     align-self: center;
     margin-right: 14px;
+    margin-left: 6px;
 }
 
 .hamburger{
@@ -903,8 +905,6 @@ body {
 
 /* footer container */
 
-
-
 .footerCenter{  
     display: flex;
     width: 100%;
@@ -921,6 +921,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin: 0px 48px; 
+    margin-bottom: 12px;
 }
 
 .footerLeft{

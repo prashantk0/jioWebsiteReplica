@@ -20,8 +20,12 @@
         
     }
 
+    .menuBarRight input[type=text] {
+        min-width: 112px;
+    }
+
     .menuContainer{
-        margin: 0;
+        margin: auto;
         width: 100%;
     }
 
@@ -98,10 +102,10 @@
     }
     .footerContent{
         width: 96%;
-        border:  1px solid black;
         padding-left: 6px;
         margin: auto;
         flex-direction: column;
+        margin-bottom: 22px;
     }
     .footerLeft{
         width: 100%;
@@ -207,5 +211,9 @@
     .serviceBtn{
         width: 100%;
         margin-bottom: 12px;
+        margin-right: 12px;
+    }
+    .serviceBtnChange{
+        width: 96.5%;
     }
 }
