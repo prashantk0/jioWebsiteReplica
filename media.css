@@ -10,29 +10,202 @@
         display: none; 
     }
 
+    .show{
+        display: block;
+    }
+
     .menuBar{
         margin-bottom: 1.5em;
         width: 100%; 
+        
+    }
+
+    .menuContainer{
+        margin: 0;
+        width: 100%;
     }
 
     .menuBarRight {
-        width: 42%;
+        width: 71%;
     }
 
+    .menuBarRight form{
+        width: 100%;
+        padding-bottom: 6px
+    }
+
+    .menuBarRight a {
+        margin-left: 1em;
+        margin-right: 0.5em;
+    }
+
+    #userIcon {
+    margin-left: 1px;
+}
+
     .menuBarLeft {
-        width: 3em;
+        width: 6em;
+    }
+
+    .menuBarRight{
+        margin-right: 12px;
     }
 
     .menuBarRight form {
-        width: 67.5%;
+        width: 282px;
     }
 
     #userIcon{
         margin-left: 1px;
     }
 
+    .slideshowContainer{
+        padding: 0px 16px;
+    }
 
+    .plansContainer{
+        padding: 0px 10px 0px 10px;
+    }
 
+    #plansContainerHeading{
+        padding-left: 24px;
+    }
 
+    
+    .planBtnContainer a{
+        margin-left: 4px;
+    }
+    .moreAppPartnerImage{
+        width: 100%;
+        height: auto;
+    }
+    .moreAppStyleImage {
+        width: 100%;
+        height: auto;
+    }
+    .contactDetailsContainerChange{
+        flex-direction: column;
+    }
+    .connectContainerChange{
+        width: 93%;
+        margin: auto;
+        margin-top: 42px;
+    }
 
+    .footerCenter{
+        justify-content: left;
+        align-items: left;
+    }
+    .footerContent{
+        width: 96%;
+        border:  1px solid black;
+        padding-left: 6px;
+        margin: auto;
+        flex-direction: column;
+    }
+    .footerLeft{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footerLeft h1{
+        margin-left: 0px;
+    }
+    .footerRight{
+        justify-content: left;
+        align-self: left;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .footerRight a{
+        margin: 0;
+        width: fit-content;
+        float: left;
+    }
+    .verticalLine{
+        margin-right: 6px;
+    }
+}
+
+@media only screen and (max-width:815px) and (min-width: 620px){
+    .paddingTop{
+        padding-top: 15px;
+    }
+
+    .productContainer{
+        margin: 0px 0px 0px 16px;
+    }
+
+    .planNameChange{
+        width: 135px;
+    }
+}
+
+@media only screen  and (max-width: 690px) and (min-width: 620px)  {
+    .apps img {
+        width: 32px;
+        height: 32px;
+    }
+    .planBtnContainer button {
+        width: 7.3em;
+        padding: 0;
+    }
+}
+
+@media only screen  and (max-width: 619px){
+    #plansContainerHeading {
+        padding-left: 3px;
+        font-size: 2em;
+    }
+    .plansContainer{
+        width: 94%;
+    }
+    .productContainer{
+        margin: 0px 15px 0px 34px;
+    }
+    .productCardContainer{
+        flex-wrap: wrap;
+    }
+    .productCard1Change{
+        width: 100%;
+    }
+    .productCard2Change{
+        width: 100%;
+    }
+
+    .productCard3Change{
+        width: 100%;
+    }
+
+    .productContainer #productContainerHeading{
+        font-size: 2em;
+    }
+
+    .planBtnContainer a {
+        margin: auto;
+    }
+    
+    .planCardContainer{
+        flex-direction: column;
+    }
+
+    .planCard{
+        width: 100%;
+    }
+
+    .textFormat {
+        height: 56px;
+    }
+
+    .serviceContainer{
+        flex-direction: column;
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+
+    .serviceBtn{
+        width: 100%;
+        margin-bottom: 12px;
+    }
 }

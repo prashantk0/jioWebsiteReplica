@@ -14,12 +14,103 @@
     <script src="https://kit.fontawesome.com/3736039a03.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+
+<body id="Body">
+
+<!-- offCanvas Sidebar -->
+<section id='offCanvasSection' class="offCanvas show">
+    <div class="offCanvasContainer">
+        <div class="offCanvasButtons">
+            <button id='plusBtn1' class="plusBtn">Mobile <span>
+                <div class="plusContainer">
+                    <div class="plus">
+                        <div class="plus1"></div>
+                        <div id='plusChildBtn1' class="plus2"></div>
+                    </div>
+                    
+                </div>
+            </span></button>
+                <div id="mobileCont1" class="mobileCont">
+                    <div class="MobileContainer">
+                        <a href="#discover">Discover</a>
+                        <a href="#prepaid">Prepaid</a>
+                        <a href="#postpaid">Postpaid</a>
+                        <a href="#getjiosim">Get Jio SIM</a>
+                        <a href="#recharge">Recharge</a>
+                        <a href="#paybill">Pay Bill</a>
+                    </div>
+                </div>
+            <button id='plusBtn2' class="plusBtn">JioFiber <span>
+                <div class="plusContainer">
+                    <div class="plus">
+                        <div class="plus1"></div>
+                        <div id='plusChildBtn2' class="plus2"></div>
+                    </div>
+                    
+                </div>
+            </span></button>
+            <div id="mobileCont2" class="mobileCont">
+                <div class="MobileContainer">
+                    <a href="#discover">Discover</a>
+                    <a href="#prepaid">Prepaid</a>
+                    <a href="#postpaid">Postpaid</a>
+                    <a href="#getjiofiber">Get JioFiber</a>
+                    <a href="#recharge">Recharge</a>
+                    <a href="#paybill">Pay Bill</a>
+                    <a href="#services">Services</a>
+                </div>
+            </div>
+            <button id='plusBtn3' class="plusBtn">Business <span>
+                <div class="plusContainer">
+                    <div class="plus">
+                        <div class="plus1"></div>
+                        <div id='plusChildBtn3' class="plus2"></div>
+                    </div>
+                </div>
+            </span></button>
+            <div id="mobileCont3" class="mobileCont">
+                <div class="MobileContainer">
+                    <a href="#discover">Discover</a>
+                    <a href="#jiobusinessSolution">JioBusiness solution</a>
+                    <a href="#services">Services</a>
+                    <a href="#enquire">Enquire</a>
+                    <a href="#resources">Resources</a>
+                    <a href="#contactUs">Contact Us</a>
+                </div>
+            </div>
+            <button id='plusBtn4' class="plusBtn">Shop <span>
+                <div class="plusContainer">
+                    <div class="plus">
+                        <div class="plus1"></div>
+                        <div id='plusChildBtn4' class="plus2"></div>
+                    </div>
+                    
+                </div>
+            </span></button>
+            <div id="mobileCont4" class="mobileCont">
+                <div class="MobileContainer">
+                    <a href="#smartphone">Smartphone</a>
+                    <a href="#smartDevices">Smart Devices</a>
+                    <a href="#acessories">Acessories</a>
+                </div>
+            </div>
+            <button class="plusBtn">Apps</button>
+            <button class="plusBtn">Support</button>
+        </div>
+        
+        
+    </div>
+</section>
 
 <section id='navigationBar' class="sticky hideXScroll">
-        <div class="menuBar">
+        <div id='menuBarId' class="menuBar">
             <div class="menuContainer">
                 <div class="menuBarLeft">
+                    <button id='hamburgerBtn' class='hamburger show'>
+                        <div id='ham1'></div>
+                        <div id='ham2'></div>
+                        <div id='ham3'></div>
+                    </button>
                     <img class="jioLogo" src="images/jioLogo.png" alt="jioLogo">
                     <a class='hide' href="#mobile">Mobile</a>
                     <a class='hide' href="#jiofiber">JioFiber</a>
@@ -31,8 +122,8 @@
                     <form>
                         <input type="text" name="search" placeholder="Search">
                     </form>
-                    <a href="#question"><img class="questCartIcon hide" src="images/question_icon.png" alt="question_icon"></a>
-                    <a href="#cart"><img class="questCartIcon hide" src="images/cart.png" alt="cart_icon"></a>
+                    <a class="hide" href="#question"><img class="questCartIcon" src="images/question_icon.png" alt="question_icon"></a>
+                    <a class="hide" href="#cart"><img class="questCartIcon" src="images/cart.png" alt="cart_icon"></a>
                     <a href="#user"><img id="userIcon" src="images/user_icons.png" alt="user_icon"></a>
                 </div>        
             </div>  
@@ -49,12 +140,10 @@
                 </div>      
             </div>
         </div>
-        
 </section>
 
-
 <!-- Slideshow container -->
-<section class="slideShow">
+<section id="slideShow">
     <div class="slideshowContainer">
 
         <div class="mySlides fade">
@@ -98,9 +187,7 @@
             <div class="planCardContainer">
                 <div class="planCard">
                     <div class="detailsContainer">
-                        <div class="planName">
-                            <h5>20% JIOMART MAHA CASHBACK</h5>
-                        </div>
+                        <h5 class="planName planNameChange">20% JIOMART MAHA CASHBACK</h5>
                         <h1 class="rupee"><span>&#8377</span>299</h1>
                         <h3 class="textFormat">Unlimited Voice and SMS</h3>
                         <div class="apps">
@@ -128,10 +215,8 @@
                     </div>
                 </div>
                 <div class="planCard">
-                    <div class="detailsContainer">
-                        <div class="planName">
-                            <h5>PREPAID PLAN</h5>
-                        </div>
+                    <div class="detailsContainer paddingTop">
+                        <h5 class="planName">PREPAID PLAN</h5>
                         <h1 class="rupee"><span>&#8377</span>499</h1>
                         <h3 class="textFormat">Unlimited Voice and SMS with 1-year Disney+ Hotstar mobile subscription worth ₹499</h3>
                         <div class="apps">
@@ -160,9 +245,7 @@
                 </div>
                 <div class="planCard">
                     <div class="detailsContainer">
-                        <div class="planName">
-                            <h5>20% JIOMART MAHA CASHBACK</h5>
-                        </div>
+                        <h5 class="planName planNameChange">20% JIOMART MAHA CASHBACK</h5>
                         <h1 class="rupee"><span>&#8377</span>666</h1>
                         <h3 class="textFormat">Unlimited Voice and SMS</h3>
                         <div class="apps">
@@ -203,14 +286,14 @@
         <div class="productContainer">
             <h3 id='productContainerHeading'>Products for you</h3>
             <div class="productCardContainer">
-                <div class="productCard">
+                <div class="productCard productCard1Change">
                     <img src="images/jiophone-next-n.png" alt="jioPhoneBuy">  
                     <div class="imageContent">
                         <h6 class="jioPhoneLabel">JioPhone Next</h6>
                         <h3 id="emi">At ₹1,999 with easy EMI</h3>
                     </div>
                 </div>
-                <div class="productCard">
+                <div class="productCard productCard2Change">
                     <img src="images/watch-series-7-homepage (1).png" alt="appleWatch">
                     <div class="imageContent">
                         <h6 class="jioPhoneLabel">Apple Watch Series 7</h6>
@@ -218,7 +301,7 @@
                     </div>
                     
                 </div>
-                <div class="productCard">
+                <div class="productCard productCard3Change">
                     <img src="images/MicrosoftTeams-image (3).png" alt="iphone"> 
                     <div class="imageContent">
                         <h6 class="jioPhoneLabel">Apple iPhone 13</h6>
@@ -249,6 +332,7 @@
                 <h3 id="myJioLabelDetails">For everything Jio.</h3>
                 <div class="appBtn">
                         <button>Get now</button>
+               
                         <a href="#learnMore">Learn more</a>
                 </div>
     
@@ -309,8 +393,8 @@
 
 <!-- contact container -->
 <div class="contactContainer">
-    <div class="contactDetailsContainer">
-        <div class="lists">
+    <div class="contactDetailsContainer contactDetailsContainerChange">
+        <div class="lists hide">
             <h1>Our offerings</h1>
             <a href="#prepaidService">Prepaid</a>
             <a href="#postpaidService">Postpaid</a>
@@ -322,7 +406,7 @@
             <a href="#DevicesService">Devices</a>
             <a href="#lyfService">LYF smartphone+</a>
         </div>
-        <div class="lists">
+        <div class="lists hide">
             <h1>Support</h1>
             <a href="#trackOrderService">Track Order</a>
             <a href="#myAccountService">My account</a>
@@ -332,7 +416,7 @@
             <a href="#feedbackService">Feedback</a>
             <a href="#contactUsService">Contact us</a>
         </div>
-        <div class="lists">
+        <div class="lists hide">
             <h1>Our Company</h1>
             <a href="#industriesService">Reliance Industries</a>
             <a href="#foundationService">Reliance Foundation</a>
@@ -340,14 +424,93 @@
             <a href="#CareersService">Careers</a>
             <a href="#investorsService">Investor relations</a>
         </div>
-        <div class="lists">
+        <div class="lists hide">
             <h1>Useful Links</h1>
             <a href="#getSimService">Get Jio SIM</a>
             <a href="#jioPayService">JioAutoPay</a>
             <a href="#brandOffersService">Brand offers</a>
             <a href="#partnersJioService">Partner with Jio</a>
         </div>
-        <div class="connectContainer">
+
+        <div class="listsChange show">
+            <div class="offCanvasButtons offCanvasButtonsChange">
+                <button id='plusBtn5' class="plusBtn plusBtnChange">Our offerings<span>
+                    <div class="plusContainer">
+                        <div class="plus">
+                            <div class="plus1"></div>
+                            <div id='plusChildBtn5' class="plus2"></div>
+                        </div>
+                    </div>
+                </span></button>
+                <div id="offerings" class="listAllContainers">
+                    <div class="listContainer">
+                        <a href="#prepaidService">Prepaid</a>
+                        <a href="#postpaidService">Postpaid</a>
+                        <a href="#roamingService">International roaming</a>
+                        <a href="#appsService">Apps</a>
+                        <a href="#esimService">eSIM</a>
+                        <a href="#wificallingService">WiFi calling</a>
+                        <a href="#jioTunesService">JioTunes</a>
+                        <a href="#DevicesService">Devices</a>
+                        <a href="#lyfService">LYF smartphone+</a>
+                    </div>
+                </div>
+                <button id='plusBtn6' class="plusBtn plusBtnChange">Support<span>
+                    <div class="plusContainer">
+                        <div class="plus">
+                            <div class="plus1"></div>
+                            <div id='plusChildBtn6' class="plus2"></div>
+                        </div>
+                    </div>
+                </span></button>
+                <div id="support" class="listAllContainers">
+                    <div class="listContainer">
+                        <a href="#trackOrderService">Track Order</a>
+                        <a href="#myAccountService">My account</a>
+                        <a href="#faqService">FAQ</a>
+                        <a href="#locateUsService">Locate us</a>
+                        <a href="#refundService">Claim your refund</a>
+                        <a href="#feedbackService">Feedback</a>
+                        <a href="#contactUsService">Contact us</a>
+                    </div>
+                </div>
+                <button id='plusBtn7' class="plusBtn plusBtnChange">Our Company<span>
+                    <div class="plusContainer">
+                        <div class="plus">
+                            <div class="plus1"></div>
+                            <div id='plusChildBtn7' class="plus2"></div>
+                        </div>
+                    </div>
+                </span></button>
+                <div id="ourCompany" class="listAllContainers">
+                    <div class="listContainer">
+                        <a href="#industriesService">Reliance Industries</a>
+                        <a href="#foundationService">Reliance Foundation</a>
+                        <a href="#jioLifeService">JioLife</a>
+                        <a href="#CareersService">Careers</a>
+                        <a href="#investorsService">Investor relations</a>
+                    </div>
+                </div>
+                <button id='plusBtn8' class="plusBtn plusBtnChange">Useful links<span>
+                    <div class="plusContainer">
+                        <div class="plus">
+                            <div class="plus1"></div>
+                            <div id='plusChildBtn8' class="plus2"></div>
+                        </div>
+                    </div>
+                </span></button>
+                <div id="usefulLinks" class="listAllContainers">
+                    <div class="listContainer">
+                        <a href="#getSimService">Get Jio SIM</a>
+                        <a href="#jioPayService">JioAutoPay</a>
+                        <a href="#brandOffersService">Brand offers</a>
+                        <a href="#partnersJioService">Partner with Jio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connectContainer connectContainerChange">
             <h1>Connect with us</h1>
             <div class="socialMedia">
                 <div class="blueCircle">
@@ -395,7 +558,6 @@
             </div>
         </div>
     </div>
-    
 </section>
 
 
