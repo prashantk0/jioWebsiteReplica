@@ -663,6 +663,7 @@ body {
 .jioAppsCardHeight {
     padding-bottom: 18px;
     width: 100%;
+    cursor: auto;
 }
 
 .productCard img{
