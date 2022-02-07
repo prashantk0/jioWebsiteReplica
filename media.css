@@ -158,6 +158,14 @@
 }
 
 @media only screen  and (max-width: 619px){
+    .hideImg{
+        display: none;
+    }
+
+    .showRespImg{
+        display: block;
+    }
+    
     #plansContainerHeading {
         padding-left: 3px;
         font-size: 2em;
@@ -215,16 +223,5 @@
     }
     .serviceBtnChange{
         width: 96.5%;
-    }
-}
-
-
-@media only screen  and (max-width: 420px){
-    .hideImg{
-        display: none;
-    }
-
-    .showRespImg{
-        display: block;
     }
 }
