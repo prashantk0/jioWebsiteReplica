@@ -73,7 +73,7 @@ function showSlides(){
 
 }
 
-setInterval(showSlides,4000);
+setInterval(showSlides,5000);
 
 
 // navigation bar hide
